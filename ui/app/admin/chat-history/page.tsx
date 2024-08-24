@@ -20,7 +20,6 @@ interface ChatHistoryEntry {
 
 export default function Page() {
   const [chatHistory, setChatHistory] = useState([]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
